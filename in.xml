@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A catalog of available books in the inventory -->
+<bookstore>
+
+  <book category="fiction">
+    <title lang="en">A Song of Ice and Fire</title>
+    <author>George R. R. Martin</author>
+    <year>1996</year>
+    <price currency="USD">24.99</price>
+  </book>
+
+  <book category="non-fiction">
+    <title lang="en">A Brief History of Time</title>
+    <author>Stephen Hawking</author>
+    <year>1988</year>
+    <price currency="USD">18.99</price>
+  </book>
+
+</bookstore>
