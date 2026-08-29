@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Please enter your details to sign in</p>
+        
+        <form action="/login-endpoint" method="POST">
+            <!-- Email Input Field -->
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <!-- Password Input Field -->
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            
+            <!-- Utilities: Remember Me & Forgot Password -->
+            <div class="form-utilities">
+                <label class="remember-me">
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+                <a href="#" class="forgot-pass">Forgot password?</a>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="login-btn">Sign In</button>
+        </form>
+        
+        <!-- Optional Signup Link -->
+        <p class="signup-redirect">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+</body>
+</html>
